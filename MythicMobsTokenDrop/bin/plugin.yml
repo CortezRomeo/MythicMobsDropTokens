@@ -1,0 +1,8 @@
+name: MythicMobsDropTokens
+version: 5.0
+main: me.sv.Main
+author: CortezRomeo
+softdepend: [TokenManager, MythicMobs]
+commands:
+  mmtk:
+    descritpion: "Main command"
