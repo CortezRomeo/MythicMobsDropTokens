@@ -1,5 +1,5 @@
 name: MythicMobsDropTokens
-version: 5.0
+version: 1.1
 main: me.sv.Main
 author: CortezRomeo
 softdepend: [TokenManager, MythicMobs]

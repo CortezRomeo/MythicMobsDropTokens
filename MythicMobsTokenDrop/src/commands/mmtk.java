@@ -69,7 +69,7 @@ public class mmtk implements CommandExecutor{
 						target.sendMessage(
 						color.add(messageActive)
 						);						
-						sender.sendMessage(color.add("Đã kích hoạt x"+booster+" token trong vòng "+time+"giây cho "
+						sender.sendMessage(color.add("Đã kích hoạt x"+booster+" token trong vòng "+time+" giây cho "
 						+target.getName()+" thành công!"));
 						
 						new BukkitRunnable() {

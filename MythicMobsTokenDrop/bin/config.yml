@@ -4,9 +4,20 @@
 # Random drop tokens 
 # Min-Max: Giới hạn số token có thể drop
 drop:
-  tokens: 
-    min: 1  
-    max: 10
+  tokens:
+    # Khi mobs trong mythicmobs không có tren trong danh sách
+    # thì số token rớt ra sẽ theo vào phần default:
+    # Hãy đảm bảo không đặt tên mobs là "default" 
+    default:
+      min: 1  
+      max: 10
+    bossLv1:
+      min: 50
+      max: 100
+    bossXYZ:
+      min: 400
+      max: 500    
+    
   message: "&fBạn nhận được &e%tokens% &ftokens!"
   boosterMessage: "&c(BOOSTER) &fBạn nhận được &e%tokens% &a(x%booster%) &etokens!" 
 booster:
